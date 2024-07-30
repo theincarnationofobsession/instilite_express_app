@@ -38,7 +38,7 @@ module.exports = {
   mysql: {
     database: process.env.MYSQL_DATABASE || 'instilite_2024_25',
     username: process.env.MYSQL_USERNAME || 'root',
-    password: process.env.MYSQL_PASSWORD || '',
+    password: process.env.MYSQL_PASSWORD || 'root',
     host: process.env.MYSQL_HOST || 'localhost',
   },
   jwt: {
@@ -60,4 +60,3 @@ module.exports = {
     from: envVars.EMAIL_FROM,
   },
 };
-
